@@ -1,7 +1,7 @@
 ---
 title: "A History of AI"
-subtitle: "Progress in Scientific Reasoning"
-author: "Jeremy Castagno"
+subtitle: "Progress in Reasoning"
+author: "Professor Castagno"
 format:
   revealjs:
     incremental: true
@@ -19,8 +19,14 @@ format:
 
 ---
 
-TODO, SVG of Engineering and Computer Science combing with Data Science to Solve Problems
+```{mermaid}
+flowchart LR
+  A[Computer Science] <--> B[Engineering]
+```
 
+- Understand and model the world with **engineering**
+- Program and simulate with **computer science**
+- Learn and verify with real world **data** and **AI**
 
 
 # What is AI to you?
@@ -56,10 +62,10 @@ TODO, SVG of Engineering and Computer Science combing with Data Science to Solve
 
 
 
-# The rise of Large Language Models
+# The rise of LLM's
 
 - **Before** - Come up with very complicated rules and algorithms that express language and thought.
-- **Now** - Just predict the next worx using statistics
+- **Now** - Just predict the next word using statistics
   - This is called a **generative** model and are the most difficult models to create because you need an enormous amount of data and large computers.
 - What changed? Where did the data come from? Where did the computation come from?
 
@@ -89,19 +95,25 @@ TODO, SVG of Engineering and Computer Science combing with Data Science to Solve
 - Reasoning in mathematics and logic
 - Understanding humans with common sense
 
+# GPT4
+
+![](./imgs/gpt4.png)
+
 # Intelligence
 
 - What is intelligence to you?
+- How do you determine if someone is an intelligent person?
 
 # Grading Intelligence
 
-- **Creative Reasoning** -  **identify** arguments, intermediate steps, or calculations that are relevant at each stage on a path towards a solution. 
+- **Creative Reasoning** - **identify** arguments, intermediate steps, or calculations that are relevant at each stage on a path towards a solution. 
 - **Technical Proficiency** - **perform** routine calculations that are prescribed at each step.
 - **Critical Reasoning** - **examine** each step and break it down to its sub components. Ability to backtrack.
 
+
 # Examples
 
-All of these example were taken from a recent paper by Microsoft AI, "Sparks of Artificial Intelligence: Early experiments with GPT-4".
+All of these example were taken from a recent paper by Microsoft AI, "Sparks of Artificial Intelligence: Early experiments with GPT-4". A 154 Page Manuscript!
 
 # Example 1 - Prompt
 
@@ -132,6 +144,19 @@ Book, eggs arranged as square, laptop, bottle, nail.
 
 - Should note that further mathematical probing on this question failed. GPT4 gave invalid proofs. But they *seemed* convincing.
 
+# Scientific Reasoning
+
+- Both of these examples showed GPT4 could do a great job in reasoning.
+- Lets dig a little deeper together. I would like you to work in groups and create a puzzle or riddle to ask ChatGPT. 
+- Write down the question, and then write its response. 
+- If you don't have an account at https://chat.openai.com/, that's okay! Just come up with the question and I will type it in later.
+
+# My riddle
+> What the least number of chairs you would need around a table to sit four fathers, two grand fathers, and four sons.
+
+![](./imgs/Riddle-1.png){fig-align="center" height=90%}
+
+
 # Interaction with Humans
 
 - **Theory of Mind** - attribute mental states such as beliefs, emotions, desires, intentions, and knowledge to oneself and ot others. 
@@ -140,59 +165,77 @@ Book, eggs arranged as square, laptop, bottle, nail.
 
 # Example 3 - Interaction with Humans
 
+::: {.fragment}
 
+![](./imgs/Example3-Q.png){fig-align="center" height=90%}
+
+:::
+
+# Example 3 - Response
+
+::: {.fragment}
+
+![](./imgs/Example3-A.png){fig-align="center" height=90%}
+
+:::
+
+# Example 3 - Follow Up
+
+> How did Judy receive his comment?
+
+::: {.fragment}
+
+![](./imgs/Example3-FU.png){fig-align="center" height=90%}
+
+:::
+
+# Example 3 - Follow Up 2
+
+> Why are they not making progress?
+
+::: {.fragment}
+
+![](./imgs/Example3-FU2.png){fig-align="center" height=90%}
+
+:::
 
 # Sentience and AI
 - **Definition of Sentience:** The capacity to have subjective experiences and feelings.
-- Discuss the philosophical and ethical implications of AI achieving sentience.
-- Highlight current debates on AI ethics and consciousness.
+- Do these examples indicate sentience? Why or why not? 
+- What are the philosophical and ethical implications of AI achieving sentience.
 
----
 
 # The Turing Test
-- **Explanation of the Turing Test:** A test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.
-- Discuss its relevance in the context of modern AI.
-- Consider criticisms and limitations of the Turing Test.
-
----
-
-# Large Language Models
-- **Definition of Large Language Models (LLMs):** Sophisticated AI models trained on vast amounts of text data, capable of generating human-like text.
-- Discuss the impact of LLMs on natural language understanding and generation.
-- Mention examples like OpenAI's GPT-3 and its applications.
-
----
+- A test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.
+- A computer and a human a placed in a separate rooms.
+- The human and the machine converse on any topic a judge decides. If the machine can fool the judge into thinking it's the human, it passes
+- Not everyone accepts the validity of the Turing Test, but passing it remains a major challenge to developers of artificial intelligence.
 
 
+# What do you think
 
-# Scientific Reasoning
+- From what you have seen does ChatGPT demonstrate strong scientific reasoning
 
-- What does it mean? Lets start with Scientific?
--
+# Challenges to General Artificial Intelligence
 
-
-# AI and Scientific Reasoning (Deep Dive)
-### **AI's Capacity for Scientific Reasoning**
-- **Problem-Solving Abilities:** Discuss how AI, particularly LLMs, can analyze intricate scientific problems, identify patterns in data, and propose solutions.
-- **Understanding Constraints:** Explain how AI systems can comprehend constraints within scientific experiments, theories, or hypotheses.
-- **Hypothesis Generation:** Highlight the capability of AI to generate hypotheses based on existing data and scientific knowledge.
-- **Experiment Design:** Discuss AI's potential in suggesting optimal experimental designs by considering various factors and constraints.
-
-### **Challenges in Scientific Reasoning for AI**
-- **Complexity of Scientific Problems:** Address the challenges AI faces when dealing with highly complex scientific problems that involve numerous variables and uncertainties.
-- **Limited Context Understanding:** Discuss limitations related to AI's understanding of nuanced scientific contexts, especially in interdisciplinary research areas.
-- **Ethical and Bias Considerations:** Explore ethical implications in scientific reasoning, including potential biases in data interpretation and decision-making processes.
-
-### **LLMs and Reasoning in Scientific Research**
-- **Literature Review:** Explain how LLMs can sift through vast amounts of scientific literature, identifying relevant studies, theories, and methodologies to inform research projects.
-- **Data Interpretation:** Discuss how LLMs can assist scientists in interpreting complex datasets, identifying correlations, and understanding subtle patterns that might elude human researchers.
-- **Collaborative Problem-Solving:** Highlight examples of AI systems collaborating with human scientists to collectively reason through complex problems, fostering interdisciplinary research.
+- Confidence Calibration
+- Long Term Memory
+- Continual Learning
+- Sensitivity to Inputs
 
 
 # Conclusion
 
+- AI's progress is on an exponential curve
 
+![](./imgs/e-growth.png)
+
+# Conclusion
+
+- More important than ever to leverage your innate creative skills
+- AI can be a tool to augment your capabilities. Don't use to wholly replace them.
+- Use your time at college to develop your scientific reasoning.
 
 
 # Q&A
-- Invite the audience to ask questions and engage in discussions.
+
