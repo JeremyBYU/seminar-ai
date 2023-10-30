@@ -29,13 +29,13 @@ flowchart LR
 - Learn and verify with real world **data** and **AI**
 
 
-# What is AI to you? {visibility="hidden"}
+# What is AI to you?
 
 - What comes to your mind when you hear the term 'Artificial Intelligence'?
 - Books, Movies, Songs...Experiences?
 
 
-# Examples to Me {visibility="hidden"}
+# Examples to Me
 
 - HAL 9000 (2001: A Space Odyssey)
 - Skynet (Terminator)
