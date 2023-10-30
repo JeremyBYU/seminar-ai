@@ -1,0 +1,198 @@
+---
+title: "A History of AI"
+subtitle: "Progress in Scientific Reasoning"
+author: "Jeremy Castagno"
+format:
+  revealjs:
+    incremental: true
+    theme: dark
+    slide-number: true
+---
+
+# About Me
+
+- BSc. Chemical Engineering @ BYU ('13)
+- MSc. and PhD. Robotics @ UMICH ('21)
+- Assistant Professor of Computer Science ('21)
+- Senior Engineer, Mapping and Data Science, RideWithGPS
+
+
+---
+
+TODO, SVG of Engineering and Computer Science combing with Data Science to Solve Problems
+
+
+
+# What is AI to you?
+
+- What comes to your mind when you hear the term 'Artificial Intelligence'?
+- Books, Movies, Songs...Experiences?
+
+
+# Examples to Me
+
+- HAL 9000 (2001: A Space Odyssey)
+- Skynet (Terminator)
+- Ultron (Marvel Series)
+- Agents (Matrix)
+- Samantha (Her)
+
+
+# Definitions
+
+- **Artificial** - Made by humans, not occurring in nature.
+- **Intelligence** -  Acquire and apply knowledge and skills.
+- **Artificial Intelligence:** the *simulation* of intelligence in machines that are programmed to problem-solve like humans.
+- This is super broad, lets dig into some specific subfields to narrow down our discussion.
+
+
+
+# Subfields of AI
+
+- **Machine Learning:** Algorithms that allow computers to learn from and make predictions based on data.
+- **Computer Vision:** Interpret and understand visual information from the world.
+- **Robotics:** Integration of AI and physical machines, allowing robots to perform tasks autonomously or semi-autonomously.
+- **Natural Language Processing (NLP):** Understand, interpret, and generate human language.
+
+
+
+# The rise of Large Language Models
+
+- **Before** - Come up with very complicated rules and algorithms that express language and thought.
+- **Now** - Just predict the next worx using statistics
+  - This is called a **generative** model and are the most difficult models to create because you need an enormous amount of data and large computers.
+- What changed? Where did the data come from? Where did the computation come from?
+
+---
+
+::: {.r-stack}
+![](https://www.logo.wine/a/logo/Google/Google-Logo.wine.svg){.fragment width="450" height="300"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/640px-Facebook_Logo_%282019%29.svg.png){.fragment height="200"}
+
+![](https://1000logos.net/wp-content/uploads/2017/05/Reddit-logo.png){.fragment height="400"}
+:::
+
+
+# ChatGPT
+
+- Released at the end of 2022 by OpenAI.
+- Who has experience with it?
+- How do you use it?
+- Does anyone think it has human like intelligence?
+
+
+# ChatGPT (GPT4)
+
+- Mastery of natural language. Generate fluent and coherent text
+- Summarizing and answering broad questions
+- Reasoning in mathematics and logic
+- Understanding humans with common sense
+
+# Intelligence
+
+- What is intelligence to you?
+
+# Grading Intelligence
+
+- **Creative Reasoning** -  **identify** arguments, intermediate steps, or calculations that are relevant at each stage on a path towards a solution. 
+- **Technical Proficiency** - **perform** routine calculations that are prescribed at each step.
+- **Critical Reasoning** - **examine** each step and break it down to its sub components. Ability to backtrack.
+
+# Examples
+
+All of these example were taken from a recent paper by Microsoft AI, "Sparks of Artificial Intelligence: Early experiments with GPT-4".
+
+# Example 1 - Prompt
+
+> Here we have a book, 9 eggs, a laptop, a bottle and a nail.Please tell me how to stack them on to each other in a stable manner.
+
+# Example 1 - Response
+
+:::{.smaller}
+
+Book, eggs arranged as square, laptop, bottle, nail. 
+
+:::
+
+![](./imgs/Example1.png)
+
+# Example 2 - Prompt
+
+![](./imgs/Example2-Q.png)
+
+# Example 2 - Response
+
+![](./imgs/Example2-A.png){fig-align="center" height=90%}
+
+
+# Example 2 - Follow Up
+
+![](./imgs/Example2-FU.png){fig-align="center" height=90%}
+
+- Should note that further mathematical probing on this question failed. GPT4 gave invalid proofs. But they *seemed* convincing.
+
+# Interaction with Humans
+
+- **Theory of Mind** - attribute mental states such as beliefs, emotions, desires, intentions, and knowledge to oneself and ot others. 
+- Reflecting on someone elses mental state
+- Reflecting on someones reflection of someones elses mental state.
+
+# Example 3 - Interaction with Humans
+
+
+
+# Sentience and AI
+- **Definition of Sentience:** The capacity to have subjective experiences and feelings.
+- Discuss the philosophical and ethical implications of AI achieving sentience.
+- Highlight current debates on AI ethics and consciousness.
+
+---
+
+# The Turing Test
+- **Explanation of the Turing Test:** A test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human.
+- Discuss its relevance in the context of modern AI.
+- Consider criticisms and limitations of the Turing Test.
+
+---
+
+# Large Language Models
+- **Definition of Large Language Models (LLMs):** Sophisticated AI models trained on vast amounts of text data, capable of generating human-like text.
+- Discuss the impact of LLMs on natural language understanding and generation.
+- Mention examples like OpenAI's GPT-3 and its applications.
+
+---
+
+
+
+# Scientific Reasoning
+
+- What does it mean? Lets start with Scientific?
+-
+
+
+# AI and Scientific Reasoning (Deep Dive)
+### **AI's Capacity for Scientific Reasoning**
+- **Problem-Solving Abilities:** Discuss how AI, particularly LLMs, can analyze intricate scientific problems, identify patterns in data, and propose solutions.
+- **Understanding Constraints:** Explain how AI systems can comprehend constraints within scientific experiments, theories, or hypotheses.
+- **Hypothesis Generation:** Highlight the capability of AI to generate hypotheses based on existing data and scientific knowledge.
+- **Experiment Design:** Discuss AI's potential in suggesting optimal experimental designs by considering various factors and constraints.
+
+### **Challenges in Scientific Reasoning for AI**
+- **Complexity of Scientific Problems:** Address the challenges AI faces when dealing with highly complex scientific problems that involve numerous variables and uncertainties.
+- **Limited Context Understanding:** Discuss limitations related to AI's understanding of nuanced scientific contexts, especially in interdisciplinary research areas.
+- **Ethical and Bias Considerations:** Explore ethical implications in scientific reasoning, including potential biases in data interpretation and decision-making processes.
+
+### **LLMs and Reasoning in Scientific Research**
+- **Literature Review:** Explain how LLMs can sift through vast amounts of scientific literature, identifying relevant studies, theories, and methodologies to inform research projects.
+- **Data Interpretation:** Discuss how LLMs can assist scientists in interpreting complex datasets, identifying correlations, and understanding subtle patterns that might elude human researchers.
+- **Collaborative Problem-Solving:** Highlight examples of AI systems collaborating with human scientists to collectively reason through complex problems, fostering interdisciplinary research.
+
+
+# Conclusion
+
+
+
+
+# Q&A
+- Invite the audience to ask questions and engage in discussions.
